@@ -1,0 +1,24 @@
+# 2018.05.17 月の満ち欠けに関するVLEの実践
+
+data <- read.csv("/Users/yukako/Desktop/Data/180517/20180517data_indv_MoonPhasesVLE.csv")
+d_ex <- subset(data, data$group==1)
+d_ct <- subset(data, data$group==0)
+
+###############################
+# 空間的思考力に差がないことを確認
+###############################
+t.test(d_ex$b_Spatial, d_ct$b_Spatial, paired = FALSE)
+
+
+###############################
+# 事前と事後の結果を群ごとに比較
+###############################
+# 群ごと
+t.test(d_ex$a_Pre, d_ct$a_Pre, paired = FALSE)
+t.test(d_ex$a_Post, d_ct$a_Post, paired = FALSE)
+
+# 個人ごと
+t.test(d_ex$a_Pre, d_ex$a_Post, paired = TRUE)
+t.test(d_ct$a_Pre, d_ct$a_Post, paired = TRUE)
+
+

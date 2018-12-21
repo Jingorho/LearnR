@@ -1,0 +1,22 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1526697460107.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "3933280559",
+    "id" : "9B383CE5",
+    "lastKnownWriteTime" : 1526701251,
+    "last_content_update" : 1526701251725,
+    "path" : "~/WorkSpace/R/180517MoonPhasesVLE_ttest.R",
+    "project_path" : "180517MoonPhasesVLE_ttest.R",
+    "properties" : {
+        "cursorPosition" : "17,40",
+        "scrollLine" : "6"
+    },
+    "relative_order" : 1,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}
